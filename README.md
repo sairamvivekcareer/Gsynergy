@@ -4,7 +4,9 @@ This Repository is created to maintain the scripts and documents of the Gsynergy
 AWS s3 and Redshift services are used for the challenge 
 
 1. The Gsynergy-ERD-Diagram.pdf file show the Entity Relationship Diagram for the Fact and Hierachy tables
+   
 2. There are three .sql scripts in the repository as below:
+   
 a.**Gsynergy-Reshift-Landing-DDL.sql :**  This file has the sql code to define the tables in AWS Redshift server and copy the files from s3 to tables in the landing schema created
                                            In the Landing schema the 10 tables 2 fact tables and the 8 hier tables are created as it is and data types are considered as varchar.
 

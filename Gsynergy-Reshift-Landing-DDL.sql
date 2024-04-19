@@ -8,7 +8,7 @@ DISTKEY(hldy_id);
 
 COPY dev.public.hldy 
 FROM 's3://gsnyergy-transactions/inbound/hier.hldy.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -27,7 +27,7 @@ DISTKEY(loc);
 
 COPY dev.public.invloc 
 FROM 's3://gsnyergy-transactions/inbound/hier.invloc.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -49,7 +49,7 @@ DISTKEY(str);
 
 COPY dev.public.rtloc 
 FROM 's3://gsnyergy-transactions/inbound/hier.rtlloc.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -70,7 +70,7 @@ DISTKEY(code_id);
 
 COPY dev.public.invstatus 
 FROM 's3://gsnyergy-transactions/inbound/hier.invstatus.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -89,7 +89,7 @@ DISTKEY(fscldt_id,sku_id);
 
 COPY dev.public.averagecosts 
 FROM 's3://gsnyergy-transactions/inbound/fact.averagecosts.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -117,7 +117,7 @@ DISTKEY(order_id);
 
 COPY dev.public.transactions 
 FROM 's3://gsnyergy-transactions/inbound/fact.transactions.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -141,7 +141,7 @@ DISTKEY(site_id);
 COPY dev.public.possite
  
 FROM 's3://gsnyergy-transactions/inbound/hier.possite.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -164,7 +164,7 @@ DISTKEY(substate_id);
 COPY dev.public.pricestate
  
 FROM 's3://gsnyergy-transactions/inbound/hier.pricestate.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -205,7 +205,7 @@ DISTKEY(fscldt_id);
 COPY dev.public.clnd
  
 FROM 's3://gsnyergy-transactions/inbound/hier.clnd.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1
@@ -238,7 +238,7 @@ DISTKEY(sku_id);
 COPY dev.public.prod
  
 FROM 's3://gsnyergy-transactions/inbound/hier.prod.dlm.gz'
-CREDENTIALS 'aws_access_key_id=AKIAXYKJXB6E55UXPQLE;aws_secret_access_key=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'
+CREDENTIALS 'aws_access_key_id=Mention Acces key here;aws_secret_access_key=Mention SECRET key here'
 FORMAT AS CSV
 DELIMITER '|'
 IGNOREHEADER 1

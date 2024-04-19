@@ -20,7 +20,7 @@ REGION 'us-east-2';
 CREATE TABLE invloc (
     loc INT,
     loc_label VARCHAR(100),
-	loctype  VARCHAR(100)
+	loctype  VARCHAR(100),
 	loctype_label VARCHAR(100)
 )
 DISTKEY(loc);

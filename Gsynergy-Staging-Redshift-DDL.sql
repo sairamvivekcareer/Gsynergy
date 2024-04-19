@@ -96,7 +96,7 @@ INSERT INTO dev.staging.prod_cat
 SELECT 
 	cat_id:: INT,
 	cat_label,
-	dept_id:: INT,
+	dept_id:: INT
 FROM dev.landing.prod
 ;
 
@@ -121,7 +121,7 @@ INSERT INTO dev.staging.prod_subcat
 SELECT 
 	subcat_id:: INT,
 	subcat_label,
-	cat_id:: INT,
+	cat_id:: INT
 FROM dev.landing.prod
 ;
 
@@ -159,7 +159,7 @@ CREATE TABLE IF NOT EXISTS dev.staging.prod_stylclr(
 	PRIMARY KEY (stylclr_id),
 	CONSTRAINT fk_stylclr_styl_styl_id
 		FOREIGN KEY (styl_id)
-		REFERENCES prod_styl(styl_id),
+		REFERENCES prod_styl(styl_id)
 	)
 	DISTKEY(stylclr_id)
 ;
@@ -169,7 +169,7 @@ INSERT INTO dev.staging.prod_stylclr
 SELECT 
 	stylclr_id:: INT,
 	stylclr_label,
-	styl_id :: INT,	
+	styl_id :: INT
 FROM dev.landing.prod
 ;
  
@@ -185,7 +185,7 @@ CREATE TABLE IF NOT EXISTS dev.staging.prod_sku(
 	PRIMARY KEY (sku_id),
 	CONSTRAINT fk_sku_stylclr_stylclr_id
 		FOREIGN KEY (stylclr_id)
-		REFERENCES prod_stylclr(stylclr_id),
+		REFERENCES prod_stylclr(stylclr_id)
 	)
 	DISTKEY(sku_id)
 ;
@@ -198,7 +198,7 @@ SELECT
 	stylclr_id:: INT,
 	issvc:: INT,
 	isasmbly:: INT,
-	isnfs:: INT,	
+	isnfs:: INT	
 FROM dev.landing.prod
 ;
 
